@@ -1,0 +1,234 @@
+
+/* RESET */
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+background:#f5f5f5;
+color:#333;
+}
+
+/* HEADER */
+
+header{
+display:flex;
+justify-content:space-between;
+align-items:center;
+
+padding:20px 40px;
+
+background:#111;
+color:white;
+}
+
+.logo{
+height:60px;
+}
+
+nav a{
+color:white;
+text-decoration:none;
+margin-left:20px;
+font-weight:bold;
+}
+
+/* BANNER */
+
+.hero{
+
+height:500px;
+
+background-image:url("imagens/banner.jpg");
+
+background-size:cover;
+background-position:center;
+
+display:flex;
+flex-direction:column;
+
+justify-content:center;
+align-items:center;
+
+color:white;
+text-align:center;
+
+}
+
+.hero h2{
+font-size:40px;
+margin-bottom:10px;
+}
+
+.hero p{
+font-size:18px;
+margin-bottom:20px;
+}
+
+/* BOTÃO */
+
+.btn{
+
+background:#ff6600;
+color:white;
+
+padding:12px 25px;
+
+border-radius:6px;
+
+text-decoration:none;
+font-weight:bold;
+
+}
+
+/* SERVIÇOS */
+
+.servicos{
+
+padding:60px 20px;
+text-align:center;
+
+}
+
+.cards{
+
+display:flex;
+justify-content:center;
+gap:30px;
+
+flex-wrap:wrap;
+
+}
+
+.card{
+
+background:white;
+
+padding:20px;
+
+width:250px;
+
+border-radius:10px;
+
+box-shadow:0 5px 15px rgba(0,0,0,0.1);
+
+}
+
+/* GALERIA */
+
+.galeria{
+
+padding:60px 20px;
+text-align:center;
+
+}
+
+.grid{
+
+display:grid;
+
+grid-template-columns:repeat(3,1fr);
+
+gap:20px;
+
+max-width:900px;
+
+margin:auto;
+
+}
+
+.grid img,
+.grid video{
+
+width:100%;
+height:250px;
+
+object-fit:cover;
+
+border-radius:10px;
+
+}
+
+/* LOCALIZAÇÃO */
+
+.localizacao{
+
+padding:60px 20px;
+text-align:center;
+
+}
+
+.mapa{
+margin-top:20px;
+}
+
+/* FOOTER */
+
+footer{
+
+background:#111;
+
+color:white;
+
+text-align:center;
+
+padding:30px;
+
+}
+
+/* INSTAGRAM */
+
+.redes{
+margin-top:20px;
+}
+
+.redes a{
+
+background:#E1306C;
+color:white;
+
+padding:10px 20px;
+
+text-decoration:none;
+
+border-radius:6px;
+
+font-weight:bold;
+
+}
+
+/* WHATSAPP */
+
+.whatsapp{
+
+position:fixed;
+
+bottom:160px;
+right:20px;
+
+background:#25D366;
+
+color:white;
+
+padding:15px 20px;
+
+border-radius:50px;
+
+text-decoration:none;
+
+font-weight:bold;
+
+box-shadow:0 5px 15px rgba(0,0,0,0.3);
+
+}
+
+/* SCROLL SUAVE */
+
+html{
+scroll-behavior:smooth;
+}
+
